@@ -67,6 +67,6 @@ public class Tablero implements ITablero {
             }
             aux += '\n';
         }
-        return aux;
+        return aux ;
     }
 }
