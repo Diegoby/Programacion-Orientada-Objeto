@@ -1,8 +1,9 @@
 package t7;
-
-public class ExAgendaPersonaNoExistente extends java.lang.Exception {
-    public ExAgendaPersonaNoExistente(){
-
-    }
+/**
+ * Excepción que indica que en la Agenda no existe la Persona indicada, y se ha intentado hacer una operación no permitida en esas circunstancias.
+ * @author POO.
+ */
+public class ExAgendaPersonaNoExistente extends Exception {
 
 }
+

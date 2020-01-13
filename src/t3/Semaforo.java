@@ -1,5 +1,7 @@
 package t3;
 
+import java.util.ArrayList;
+
 public class Semaforo implements ISemaforo{
 
     private int colorCentral;

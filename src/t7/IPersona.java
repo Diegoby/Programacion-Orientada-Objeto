@@ -1,16 +1,31 @@
 package t7;
-
+/**
+ * Definición de la abstracción Persona.
+ * @author POO.
+ *
+ */
 public interface IPersona {
-
-    java.lang.String getDNI();
-
-    java.lang.String getNombre();
-
-    IPersona get();
-
-    @Override
-    java.lang.String toString();
-
-    boolean equals(IPersona p);
-
-}
+	  
+	  /**
+	   * Obtiene el DNI de la Persona.
+	   * @return DNI.
+	   */
+	  public String getDNI();
+	  
+	  /**
+	   * Obtiene el Nombre de la Persona.
+	   * @return Nombre.
+	   */
+	  public String getNombre();
+	  
+	  /**
+	   * Obtiene la Persona.
+	   * @return Persona.
+	   */
+	  public IPersona get();
+	  
+	  public String toString(); 
+	  
+	  public boolean equals(IPersona p);
+	   
+	}
